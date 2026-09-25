@@ -88,6 +88,7 @@ Updates status
 | **Frontend**           | HTML5              | Creates the webpage structure                           |
 | **Frontend**           | CSS3               | Styling, layout, responsive design                      |
 | **Frontend**           | JavaScript         | Frontend logic and user interaction                     |
+| **Frontend**           | React              | Creates the webpage structure                           |
 | **Backend**            | Node.js            | Runs JavaScript on the server                           |
 | **Backend Framework**  | Express.js         | Creates REST APIs and handles requests                  |
 | **Authentication**     | JWT                | Secure user authentication/session                      |
