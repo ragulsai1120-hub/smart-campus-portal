@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Campus Administrator",
+      "email": "admin@smartcampus.local",
+      "password": "$2a$10$IcyTx0Yx/OddirU75QqFA.GoaplvhSUpAJFQnCYDmNyXFS2EX.DQO",
+      "role": "admin",
+      "verified": true,
+      "department": "Administration"
+    },
+    {
+      "id": "usr_staff",
+      "name": "Maintenance Staff",
+      "email": "staff@smartcampus.local",
+      "password": "$2a$10$1MW7mHII5R4JUlBv09/EfOzGsYU.qMVvQ.DMwWW13t4XR0hWlVhte",
+      "role": "staff",
+      "verified": true,
+      "department": "IT & Maintenance"
+    },
+    {
+      "id": "usr_0ef526d7",
+      "name": "NOBITA",
+      "email": "rohiniannadurai2@gmail.com",
+      "password": "$2a$10$VGGYFDle1J8tw9Cb06VzK.WnjTI2xDTiYMmNTOnl2jFpqMF/XCQ8C",
+      "role": "student",
+      "department": "computer science",
+      "verified": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "ISS-460be20b",
+      "title": "projector is not working",
+      "description": "it is not working",
+      "category": "Classroom Equipment",
+      "priority": "Critical",
+      "location": "block a",
+      "status": "Submitted",
+      "studentId": "usr_0ef526d7",
+      "studentName": "NOBITA",
+      "assignedStaffId": null,
+      "assignedStaffName": null,
+      "createdAt": "2026-09-25T08:07:08.696Z",
+      "updatedAt": "2026-09-25T08:07:08.696Z",
+      "comments": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-3672d6cb",
+      "userId": "usr_0ef526d7",
+      "message": "Issue ISS-460be20b submitted successfully.",
+      "createdAt": "2026-09-25T08:07:08.696Z",
+      "read": false
+    }
+  ]
+}
